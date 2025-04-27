@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (response.statusCode == 200) {
         print('✅ Servo update success: ${response.body}');
       } else {
-        print('❌ Failed with status: ${response.statusCode}');
+        print('❌ Failed with status: ${response}');
       }
     } catch (e) {
       print('⚠️ Error during request: $e');
